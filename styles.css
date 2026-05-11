@@ -1,0 +1,52 @@
+
+
+.header {
+    display: flex;
+    outline: auto;
+    flex-direction: column;
+    
+    
+}
+
+/* Remove the line under links */
+a {
+    text-decoration: none;
+ 
+}
+/* remove the bullet points in lists */
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.middle-body {
+    display: flex;
+    flex-direction: column;
+    outline: auto;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    outline: auto;
+}
+
+.tiles {
+    display: flex;
+    outline: auto;
+}
+
