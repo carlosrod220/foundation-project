@@ -1,17 +1,39 @@
 
+body {
+   font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
 
 .header {
     display: flex;
-    outline: auto;
     flex-direction: column;
+     background-color: #1f2937;
     
-    
+}
+
+#greeting {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    width: 300px;
+    text-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+
+p {
+    padding: 0;
+    margin: 0;
 }
 
 /* Remove the line under links */
 a {
     text-decoration: none;
- 
+    color: #e5e7eb;
+    font-size: 18px;
 }
 /* remove the bullet points in lists */
 ul {
@@ -19,34 +41,105 @@ ul {
     display: flex;
     flex-direction: row;
     gap: 16px;
+    margin-right: 100px;
+}
+
+#subtext {
+    color: #f9faf8;
+    width: 300px;
 }
 
 .top-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
+}
+
+.header-logo {
+    color: #f9faf8;
+    margin-left: 100px;
 }
 
 .bottom-header {
     display: flex;
     justify-content: space-between;
+    margin-left: 100px;
+    gap: 8px;
+    outline: auto;
+    align-items: center;
+}
+
+.top-body {
+    display: flex;
     flex-direction: column;
+    padding: 50px;
+}
+
+.image {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    background-color: grey;
+    margin-right: 200px;
 }
 
 .middle-body {
     display: flex;
     flex-direction: column;
-    outline: auto;
 }
 
 .random-info {
     display: flex;
     justify-content: center;
-    outline: auto;
 }
 
 .tiles {
     display: flex;
+    justify-content: center;
+    outline: auto;
+    gap: 16px;
+}
+
+.image-row {
+    display: flex;
+}
+
+.image-description {
+    display: flex;
+}
+
+.square {
+    display: flex;
+    outline: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    width: 100px;
+}
+
+.bottom-body {
     outline: auto;
 }
 
+.quote {
+    width: 300px;
+    outline: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    outline: auto;
+    align-items: center;
+    flex: 1;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+}
