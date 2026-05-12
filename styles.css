@@ -94,6 +94,11 @@ ul {
     justify-content: center;
 }
 
+.rectangles {
+    display: flex;
+    justify-content: center;
+}
+
 .tiles {
     display: flex;
     justify-content: center;
@@ -103,6 +108,7 @@ ul {
 
 .image-row {
     display: flex;
+    gap: 50px;
 }
 
 .image-description {
