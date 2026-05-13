@@ -2,7 +2,7 @@
 body {
    font-family: sans-serif;
     display: flex;
-    height: 100vh;
+    /* height: 100vh; */
     flex-direction: column;
 }
 
@@ -66,7 +66,6 @@ ul {
     justify-content: space-between;
     margin-left: 100px;
     gap: 8px;
-    outline: auto;
     align-items: center;
 }
 
@@ -97,12 +96,13 @@ ul {
 .rectangles {
     display: flex;
     justify-content: center;
+    padding-bottom: 10px;
 }
 
 .tiles {
     display: flex;
     justify-content: center;
-    outline: auto;
+    /* outline: auto; */
     gap: 16px;
 }
 
@@ -113,28 +113,36 @@ ul {
 
 .image-description {
     display: flex;
+    gap: 60px;
 }
 
 .square {
     display: flex;
     outline: auto;
-    height: 50px;
-    width: 50px;
+    height: 120px;
+    width: 120px;
+    border-radius: 16%;
 }
 
 .card {
     display: flex;
     text-align: center;
-    width: 100px;
+    width: 110px;
 }
 
 .bottom-body {
+    display: flex;
     outline: auto;
+    background-color: #e5e7eb;
 }
 
 .quote {
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     outline: auto;
+    font-size: 36px;
+    width: 800px;
 }
 
 .footer {
